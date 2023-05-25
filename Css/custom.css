@@ -1,0 +1,111 @@
+
+.container {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
+
+
+h1 {
+    font-family: "Brush Script MT", cursive; font-size: 25px; 
+  }
+  
+h2 {
+    font-family: "Pacifico", sans-cursive; font-size: 25px; 
+  }
+  
+
+h3 {
+    font-family: "Pacifico", cursive; font-size: 25px; font-style: Bold; 
+  }
+
+  p {
+    font-size: 20px; 
+  }
+  
+  /* Font style for small print */
+  .small-print {
+    font-family: "Helvetica", sans-serif; 
+  }
+
+.feature {
+    background-color: lightgreen;
+    color: black;
+    padding: 0%;
+}
+
+.col-md-2 {
+  background-color: white;
+  padding: 0%;
+  align-items: flex-start;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+    background-color: #7e7e7e;
+    color: rgb(0, 0, 0);
+    padding: 1%;
+}
+
+.footer-blurb-item {
+    padding: 0%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    }
+    
+
+.small-print {
+    background-color: #fff;
+    padding: 0;
+}
+
+.img-responsive {
+    width: 500px; /* Adjust the width as per your preference */
+    height: 400px; /* Automatically adjust the height to maintain the aspect ratio */
+    border: 6px solid #ccc; /* Add a border to the images */
+    border-radius: 8px; /* Add rounded corners to the images */
+    margin: 10px; /* Add some margin around the images */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+  
+  .img-responsive:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    /* Add any other styles you want for the hover effect */
+  }
+
+.feature,
+.page-intro,
+.article-intro,
+.footer-blurb,
+.small-print {
+    text-align: center;
+}
+
+.custom-img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .custom-img2 {
+    width: 160px;
+    height: 160px;
+  }
